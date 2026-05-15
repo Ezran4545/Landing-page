@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FlowDesk — Work Smarter</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ── Navbar ── -->
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Flow<span>Desk</span></a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-center gap-3 mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">Reviews</a></li>
+        <li class="nav-item"><a class="nav-link btn-nav ms-2" href="#cta">Start Free</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ── Hero ── -->
+<section class="hero">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <span class="hero-badge fade-up">✦ New — AI-powered task engine</span>
+        <h1 class="fade-up delay-1">The desk that <span class="line-accent">thinks</span> with you.</h1>
+        <p class="lead fade-up delay-2">FlowDesk combines smart task management, deep-work scheduling, and team sync into one beautifully calm workspace.</p>
+        <div class="d-flex flex-wrap gap-3 fade-up delay-3">
+          <a href="#cta" class="btn-primary-brand">Get started free</a>
+          <a href="#features" class="btn-ghost">See how it works</a>
+        </div>
+        <p class="mt-4 fade-up delay-4" style="font-size:0.82rem; color:var(--text-muted);">No credit card required · Free for 14 days</p>
+      </div>
+      <div class="col-lg-6">
+        <div class="hero-img-wrap fade-up delay-2">
+          <div class="hero-img-card">
+            <div class="hero-dashboard">
+              <div class="dash-topbar">
+                <div class="dash-dot" style="background:#F4572D"></div>
+                <div class="dash-dot" style="background:#FFD166"></div>
+                <div class="dash-dot" style="background:#22c55e"></div>
+              </div>
+              <div class="dash-bar">
+                <div class="dash-icon" style="background:#F4572D22"></div>
+                <div class="dash-text-block">
+                  <div class="dash-line" style="background:#264d7a; width:80%"></div>
+                  <div class="dash-line short" style="background:#1d3a62"></div>
+                </div>
+                <span class="dash-tag" style="background:#F4572D22; color:#F4572D">Due today</span>
+              </div>
+              <div class="dash-bar">
+                <div class="dash-icon" style="background:#FFD16622"></div>
+                <div class="dash-text-block">
+                  <div class="dash-line" style="background:#264d7a; width:65%"></div>
+                  <div class="dash-line short" style="background:#1d3a62"></div>
+                </div>
+                <span class="dash-tag" style="background:#22c55e22; color:#22c55e">Done ✓</span>
+              </div>
+              <div class="dash-bar">
+                <div class="dash-icon" style="background:#22c55e22"></div>
+                <div class="dash-text-block">
+                  <div class="dash-line" style="background:#264d7a; width:72%"></div>
+                  <div class="dash-line short" style="background:#1d3a62"></div>
+                </div>
+                <span class="dash-tag" style="background:#264d7a; color:#8aafc8">In review</span>
+              </div>
+              <div style="display:flex; gap:8px; margin-top:14px;">
+                <div style="flex:1; height:50px; background:#1d3a62; border-radius:10px;"></div>
+                <div style="flex:1.6; height:50px; background:#F4572D22; border-radius:10px;"></div>
+                <div style="flex:0.8; height:50px; background:#1d3a62; border-radius:10px;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-float-card">
+            <div class="hero-float-label">Tasks completed</div>
+            <div class="hero-float-number">2,840</div>
+            <div class="hero-float-sub">↑ 18% this month</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Logos ── -->
+<section class="logos-section">
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-center gap-4">
+      <span class="logos-label">Trusted by teams at</span>
+      <span class="logo-pill">Stripe</span>
+      <span class="logo-pill">Notion</span>
+      <span class="logo-pill">Figma</span>
+      <span class="logo-pill">Linear</span>
+      <span class="logo-pill">Vercel</span>
+    </div>
+  </div>
+</section>
+
+<!-- ── Features ── -->
+<section class="features-section" id="features">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-6">
+        <div class="section-label">Features</div>
+        <h2 class="section-title">Everything you need, nothing you don't.</h2>
+      </div>
+      <div class="col-lg-5 offset-lg-1 d-flex align-items-end">
+        <p class="section-sub">Built for individuals and teams who want clarity, not clutter. FlowDesk surfaces the right work at the right time.</p>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="feature-card">
+          <div class="feature-icon-wrap" style="background:#FEF3C7;">🧠</div>
+          <h4>AI Task Prioritization</h4>
+          <p>FlowDesk learns your work patterns and automatically surfaces the most impactful tasks every morning.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="feature-card">
+          <div class="feature-icon-wrap" style="background:#DCFCE7;">📅</div>
+          <h4>Deep Work Scheduler</h4>
+          <p>Block distraction-free focus sessions on your calendar. FlowDesk guards your time so you can do your best thinking.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="feature-card">
+          <div class="feature-icon-wrap" style="background:#EDE9FE;">🔗</div>
+          <h4>Team Sync</h4>
+          <p>See what your teammates are working on in real-time. No more endless status meetings or Slack pile-ons.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="feature-card">
+          <div class="feature-icon-wrap" style="background:#FEE2E2;">⚡</div>
+          <h4>Instant Integrations</h4>
+          <p>Connect GitHub, Figma, Notion, Slack, and 50+ tools. Your work — all in one place, no juggling tabs.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="feature-card">
+          <div class="feature-icon-wrap" style="background:#DBEAFE;">📊</div>
+          <h4>Progress Analytics</h4>
+          <p>Track velocity, completion rate, and focus hours over time. See exactly where your energy goes.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="feature-card">
+          <div class="feature-icon-wrap" style="background:#FFEDD5;">🔒</div>
+          <h4>Private by Default</h4>
+          <p>End-to-end encryption on all personal tasks. You decide what your team sees. Always.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Stats ── -->
+<section class="stats-section">
+  <div class="container">
+    <div class="row g-5 text-center text-lg-start">
+      <div class="col-6 col-lg-3">
+        <div class="stat-number">40k+</div>
+        <div class="stat-label">Active users worldwide</div>
+      </div>
+      <div class="col-6 col-lg-3">
+        <div class="stat-number">98%</div>
+        <div class="stat-label">Customer satisfaction score</div>
+      </div>
+      <div class="col-6 col-lg-3">
+        <div class="stat-number">3.2M</div>
+        <div class="stat-label">Tasks completed this year</div>
+      </div>
+      <div class="col-6 col-lg-3">
+        <div class="stat-number">4.9★</div>
+        <div class="stat-label">Average rating on Product Hunt</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Pricing ── -->
+<section class="pricing-section" id="pricing">
+  <div class="container">
+    <div class="text-center mb-5">
+      <div class="section-label">Pricing</div>
+      <h2 class="section-title">Simple, honest pricing.</h2>
+      <p class="section-sub mx-auto" style="max-width:420px;">Start free and upgrade when you're ready. No hidden fees, no surprise invoices.</p>
+    </div>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-6 col-lg-4">
+        <div class="pricing-card">
+          <div class="pricing-plan-name muted">Starter</div>
+          <div class="pricing-price"><sup>$</sup>0</div>
+          <div class="pricing-period">forever free</div>
+          <hr class="pricing-divider">
+          <div class="pricing-feature"><span class="pricing-check check-green">✓</span> Up to 3 projects</div>
+          <div class="pricing-feature"><span class="pricing-check check-green">✓</span> 50 tasks per month</div>
+          <div class="pricing-feature"><span class="pricing-check check-green">✓</span> Basic analytics</div>
+          <div class="pricing-feature"><span class="pricing-check check-green">✓</span> 2 integrations</div>
+          <a href="#cta" class="btn-pricing btn-pricing-outline">Get started</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="pricing-card featured">
+          <span class="pricing-badge">Most popular</span>
+          <div class="pricing-plan-name white">Pro</div>
+          <div class="pricing-price" style="color:#fff"><sup>$</sup>19</div>
+          <div class="pricing-period">per user / month</div>
+          <hr class="pricing-divider">
+          <div class="pricing-feature"><span class="pricing-check check-blue">✓</span> Unlimited projects</div>
+          <div class="pricing-feature"><span class="pricing-check check-blue">✓</span> Unlimited tasks</div>
+          <div class="pricing-feature"><span class="pricing-check check-blue">✓</span> AI prioritization</div>
+          <div class="pricing-feature"><span class="pricing-check check-blue">✓</span> All 50+ integrations</div>
+          <div class="pricing-feature"><span class="pricing-check check-blue">✓</span> Advanced analytics</div>
+          <div class="pricing-feature"><span class="pricing-check check-blue">✓</span> Priority support</div>
+          <a href="#cta" class="btn-pricing btn-pricing-solid">Start 14-day trial</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="pricing-card">
+          <div class="pricing-plan-name muted">Enterprise</div>
+          <div class="pricing-price">Custom</div>
+          <div class="pricing-period">contact us for pricing</div>
+          <hr class="pricing-divider">
+          <div class="pricing-feature"><span class="pricing-check check-green">✓</span> Everything in Pro</div>
+          <div class="pricing-feature"><span class="pricing-check check-green">✓</span> SSO & SAML</div>
+          <div class="pricing-feature"><span class="pricing-check check-green">✓</span> Custom roles & permissions</div>
+          <div class="pricing-feature"><span class="pricing-check check-green">✓</span> Dedicated account manager</div>
+          <div class="pricing-feature"><span class="pricing-check check-green">✓</span> SLA guarantee</div>
+          <a href="#cta" class="btn-pricing btn-pricing-outline">Talk to sales</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Testimonials ── -->
+<section class="testimonials-section" id="testimonials">
+  <div class="container">
+    <div class="text-center mb-5">
+      <div class="section-label">Testimonials</div>
+      <h2 class="section-title">Loved by makers everywhere.</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"FlowDesk cut my planning overhead in half. The AI surface is genuinely magical — it always knows what I should work on next."</p>
+          <div class="d-flex align-items-center gap-3">
+            <div class="testimonial-avatar" style="background:#7c3aed;">JM</div>
+            <div>
+              <div class="testimonial-name">Jamie Mutua</div>
+              <div class="testimonial-role">Product Lead, Vercel</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"We moved our entire team of 12 from Notion + Asana to FlowDesk. The team sync view is a game-changer for async collaboration."</p>
+          <div class="d-flex align-items-center gap-3">
+            <div class="testimonial-avatar" style="background:#0891b2;">AK</div>
+            <div>
+              <div class="testimonial-name">Amara Kimani</div>
+              <div class="testimonial-role">Engineering Manager, Stripe</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"I've tried every productivity app out there. FlowDesk is the first one that actually reduces my anxiety instead of adding to it."</p>
+          <div class="d-flex align-items-center gap-3">
+            <div class="testimonial-avatar" style="background:#b45309;">SO</div>
+            <div>
+              <div class="testimonial-name">Sara Ochieng</div>
+              <div class="testimonial-role">Founder, Indie Hacker</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ── -->
+<section class="cta-section" id="cta">
+  <div class="container">
+    <div class="cta-box">
+      <h2>Ready to flow?</h2>
+      <p>Join 40,000+ people doing their best work with FlowDesk.</p>
+      <div class="cta-email-form">
+        <input type="email" class="cta-email-input" placeholder="Enter your work email"/>
+        <a href="#" class="btn-primary-brand" style="white-space:nowrap;">Get early access</a>
+      </div>
+      <p style="font-size:0.78rem; color:#3d5a74; margin-top:1rem;">No credit card · Cancel anytime · GDPR compliant</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer class="footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="footer-brand">Flow<span>Desk</span></div>
+        <div class="footer-tagline">The desk that thinks with you.</div>
+      </div>
+      <div class="col-6 col-lg-2 offset-lg-2">
+        <div class="footer-heading">Product</div>
+        <a class="footer-link" href="#">Features</a>
+        <a class="footer-link" href="#">Pricing</a>
+        <a class="footer-link" href="#">Changelog</a>
+        <a class="footer-link" href="#">Roadmap</a>
+      </div>
+      <div class="col-6 col-lg-2">
+        <div class="footer-heading">Company</div>
+        <a class="footer-link" href="#">About</a>
+        <a class="footer-link" href="#">Blog</a>
+        <a class="footer-link" href="#">Careers</a>
+        <a class="footer-link" href="#">Press</a>
+      </div>
+      <div class="col-6 col-lg-2">
+        <div class="footer-heading">Legal</div>
+        <a class="footer-link" href="#">Privacy</a>
+        <a class="footer-link" href="#">Terms</a>
+        <a class="footer-link" href="#">Security</a>
+      </div>
+    </div>
+    <hr class="footer-divider">
+    <div class="footer-copy">© 2025 FlowDesk, Inc. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Smooth scroll for all anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const target = document.querySelector(a.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+
+  // Scroll-triggered fade-in for sections
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.12 });
+
+  document.querySelectorAll('.feature-card, .pricing-card, .testimonial-card').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(20px)';
+    el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+    observer.observe(el);
+  });
+</script>
+</body>
+</html>
