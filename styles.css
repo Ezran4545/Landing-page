@@ -52,7 +52,11 @@
     font-weight: 500;
     transition: opacity 0.2s;
   }
-  .btn-nav:hover { opacity: 0.85; }
+  .btn-nav:hover { 
+    background: #ff6600 !important;
+    color: #ffffff !important;     
+  opacity: 1;
+  }
 
   /* ── Hero ── */
   .hero {
